@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Open+Sans:ital@1&family=Roboto&family=Uchen&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+h1 img{
+  height:70px;
+padding-right: 20px;
+}
+
+
+h1{
+  text-align: center;
+  color: green;
+  font-family: 'Uchen', serif;
+  background-color: white;
+  font-size: 60px;
+}
+.home{
+  display: flex;
+  background-color: black;
+ align-items: center;
+  position: relative;
+  
+}
+
+
+nav ul{
+  list-style-type: none;
+}
+nav ul a {
+  display:inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color:white;
+  text-align: right;
+  font-size:18px;
+}
+
+  
+  
+
+nav ul li a:hover{
+  background-color:#d2d0d0;
+  color: black;
+  font-size: 25px;
+  border-radius: 50px;
+  padding: 0px;
+  cursor: pointer;
+  
+  
+}
+
+.front{
+  width: 100%;
+  height: 500px;
+  background: url("https://images.pexels.com/photos/920570/pexels-photo-920570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+ 
+}
+div h2{
+  color: #d7d728;
+  display:flex;
+  justify-content: center;
+  font-size: 3.8rem;
+  padding: 12px;
+ 
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+div p{
+  color: #b7b710;
+  display: flex;
+  justify-content: center;
+  font-size: 2.8rem;
+  padding: 12px;
+
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+.container{
+  width: 100%;
+  height: 100px;
+  background-color: #f5f0f0;
+  font-size:5rem;
+  color: #ae1e1e;
+  
+  text-align: center;
+  
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.items{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 30px 20px;
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+  }
+
+.item img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  
+}
+
+
+.item h4{
+  padding:5px;
+  text-align:center;
+}
+.item button{
+  padding:5px 30px;
+  border:none;
+  outline:none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.item button:hover{
+  background-color: #e8e864;
+  color:black;
+ 
+}
+
+.icon{
+ color:yellowgreen;
+  margin: 20px;
+  
+}
+.icon ul{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+   background-color: green;
+}
+
+.icon ul{
+  list-style-type: none;
+}
+
+.icon ul a {
+  display:inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 100px;
+}
+.icon ul li i{
+  font-size: 30px;
+}
+
+ 
+  
+
+
+.icon ul li i:hover {
+  color:yellow;
+  font-size: 35px;
+  
+}
